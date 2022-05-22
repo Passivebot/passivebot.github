@@ -1,13 +1,16 @@
 ## Welcome to Passivebot's GitHub Pages
 
 ### Games
-1. Runescape
+1. Diablo
 2. Minecraft
 3. Roblox
+4. Runescape
+5. World of Warcraft
 
 ### GPT Sites
-1. Microsoft Rewards
-2. Swagbucks
+1. Inbox Dollars
+2. Microsoft Rewards
+3. Swagbucks
 
 ### Jekyll Themes
 
