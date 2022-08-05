@@ -12,9 +12,16 @@
 2. Microsoft Rewards
 3. Swagbucks
 
-### Jekyll Themes
+### Cryptocurrencies
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/passivebot/Passivebot.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+1. Bitcoin (BTC)
+2. Ethereum (ETH)
+3. KIN
+4. Salad
+5. Stellar (XLM)
+6. Tron (TRX)
+7. Many more...
+
 
 ### Support or Contact
 
