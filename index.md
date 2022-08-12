@@ -4,9 +4,7 @@
 1. Diablo
 2. Minecraft
 3. Roblox
-4. <li class="masthead__menu-item">
-          <a href="runescape.html">Runescape</a>
-        </li>
+4. <a href="runescape.html">Runescape</a>
 5. World of Warcraft
 
 ### GPT Sites
