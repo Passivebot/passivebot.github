@@ -5,7 +5,7 @@
 2. Minecraft
 3. Roblox
 4. <li class="masthead__menu-item">
-          <a href="www.github.io/runescape.html">Runescape</a>
+          <a href="runescape.html">Runescape</a>
         </li>
 5. World of Warcraft
 
