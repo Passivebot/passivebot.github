@@ -10,9 +10,8 @@
 ### GPT Sites
 1. Inbox Dollars
 2. Microsoft Rewards
-3. <li class="masthead__menu-item">
-          <a href="www.swagbucks.com/lp-savings-button?cmp=695&cxid=swagbuttonref&rb=93728791&extRefCmp=1&extRb=93728791">Swagbucks</a>
-        </li>
+3.<a href="www.swagbucks.com/lp-savings-button?cmp=695&cxid=swagbuttonref&rb=93728791&extRefCmp=1&extRb=93728791">Swagbucks</a>
+        
 
 ### Cryptocurrencies
 
