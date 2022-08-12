@@ -4,7 +4,7 @@
 1. Diablo
 2. Minecraft
 3. Roblox
-4. Runescape
+4. [Runescape](https.passivebot.github.io/runescape)
 5. World of Warcraft
 
 ### GPT Sites
