@@ -1,5 +1,6 @@
 body {
-  background-color: #efefef;
+  background-color: #efebdf;
+  padding: 0px 40px 40px 80px;
 }
 hr {
   border-style: none;
@@ -18,5 +19,5 @@ h1 {
 }
 
 h3 {
-  color : #4b4026
+  color : #000000
 }
