@@ -1,6 +1,6 @@
 # passivebot.github.io
 
-This is the source code for the Electron website at 
+This is the source code for the Passivebot website at 
 [passivebot.guthub.io](https://passivebot.github.io).
 
 ## Code of Conduct
