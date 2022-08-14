@@ -1,3 +1,6 @@
+a {
+  text-decoration: none;
+}
 a:visited {
   color: purple;
   background-color: transparent;
@@ -9,9 +12,18 @@ a:hover {
 }
 body {
   background-color: #efebdf;
-  padding: 0 40px 40px 80px;
+  padding: 0 40px 40px 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+button {
+  background-color:#ffffff;
+  border-radius:12px;
+  border:solid #cec7c7 1px;
+  padding: 12px 28px;
+}
+/* button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+} */
 hr {
   border-style: none;
   border-color: #504b44;
@@ -20,10 +32,6 @@ hr {
   height: 0;
   width: 5%;
 }
-a {
-  text-decoration: none;
-}
-
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -60,5 +68,44 @@ h3 {
   }
   75% {
     top: -3.6em;
+  }
+}
+
+td {
+vertical-align: top;
+}
+
+.button-74 {
+  background-color: #fff;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fbeee0;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
   }
 }
