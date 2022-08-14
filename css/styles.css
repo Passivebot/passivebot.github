@@ -1,6 +1,16 @@
+a:visited {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
 body {
   background-color: #efebdf;
-  padding: 0px 40px 40px 80px;
+  padding: 0 40px 40px 80px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 hr {
   border-style: none;
@@ -15,9 +25,40 @@ a {
 }
 
 h1 {
-  color : #000000
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
 }
 
 h3 {
   color : #000000
+}
+/* Scroller styling */
+.scroller {
+  height: 1.2em;
+  line-height: 1.2em;
+  position: relative;
+  overflow: hidden;
+  width: 9em;
+}
+.scroller > span {
+  position: absolute;
+  top: 0;
+  animation: slide 5s infinite;
+  font-weight: bold;
+
+}
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: -1.2em;
+  }
+  50% {
+    top: -2.4em;
+  }
+  75% {
+    top: -3.6em;
+  }
 }
