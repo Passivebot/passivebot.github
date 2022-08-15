@@ -1,5 +1,7 @@
 a {
+  background-color: transparent;
   text-decoration: none;
+  color:black;
 }
 a:visited {
   color: purple;
@@ -11,12 +13,13 @@ a:hover {
   text-decoration: underline;
 }
 body {
-  background-color: #efebdf;
+  background-color: #fefae0;
   padding: 0 40px 40px 0;
   font-family: Arial, Helvetica, sans-serif;
+
 }
 button {
-  background-color:#ffffff;
+  background-color:#b98c6b;
   border-radius:12px;
   border:solid #cec7c7 1px;
   padding: 12px 28px;
@@ -32,14 +35,27 @@ hr {
   height: 0;
   width: 5%;
 }
-h1 {
+h1.scroll {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 85px;
+
 }
 
-h3 {
-  color : #000000
+h2 {
+  color : #000000;
+  font-size: 40px;
+}
+h2.h2-1 {
+  text-align: center;
+}
+h3.h3-1 {
+  font-size: 25px;
+  text-align: center;
+}
+h3.h3-2 {
+  font-size: 25px;
+  text-align: left;
 }
 /* Scroller styling */
 .scroller {
@@ -54,8 +70,12 @@ h3 {
   top: 0;
   animation: slide 5s infinite;
   font-weight: bold;
-
 }
+p {
+  text-align: center;
+}
+
+
 @keyframes slide {
   0% {
     top: 0;
@@ -71,8 +91,16 @@ h3 {
   }
 }
 
-td {
-vertical-align: top;
+.table-1 {
+
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+ul li {
+   list-style-position: inside;
 }
 
 .button-74 {
