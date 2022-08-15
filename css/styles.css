@@ -14,7 +14,7 @@ a:hover {
 }
 body {
   background-color: #fefae0;
-  padding: 0 40px 40px 0;
+  padding: 40px 40px 40px 40px;
   font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -71,9 +71,9 @@ h3.h3-2 {
   animation: slide 5s infinite;
   font-weight: bold;
 }
-p {
+/* p {
   text-align: center;
-}
+} */
 
 
 @keyframes slide {
