@@ -1,17 +1,23 @@
 a {
+  color: black;
   background-color: transparent;
   text-decoration: none;
-  color:black;
 }
 a:visited {
-  color: purple;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
 a:hover {
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
+
+a.one{
+    color: #4d3ca6;}
+a.one:hover{
+    color: #fff}
+
 body {
   background-color: #fefae0;
   padding: 40px 40px 40px 40px;
@@ -50,17 +56,36 @@ h2.h2-1 {
   text-align: center;
 }
 h3.h3-0 {
-  font-size: 25px;
-  text-align: right;
+  font-size: 35px;
+  text-align: center;
+  color: #800080;
+  margin-bottom: 0;
 }
 h3.h3-1 {
-  font-size: 25px;
+  font-size: 35px;
   text-align: center;
+  color: #800080;
+  margin-bottom: 0;
 }
 h3.h3-2 {
-  font-size: 25px;
-  text-align: left;
+  font-size: 35px;
+  text-align: center;
+  color: #800080;
+  margin-bottom: 0;
 }
+
+li {
+  text-align:center;
+  font-size: 25px;
+  list-style: none;
+}
+
+/* #row{
+ width:100%;
+ text-align:center;
+ padding:0;
+} */
+
 /* Scroller styling */
 .scroller {
   height: 1.2em;
@@ -140,4 +165,43 @@ ul li {
     min-width: 120px;
     padding: 0 25px;
   }
+}
+
+.button-75 {
+  background-color: #fff;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 40px 150px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  color: #4d3ca6;
+  text-decoration: none;
+}
+.button-75:hover {
+  background-color: #000000;
+  text-decoration: none;
+}
+
+.button-75:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+  ;
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
 }
