@@ -33,6 +33,66 @@ button {
 /* button:hover{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 } */
+
+.footer{
+  	margin: 0;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .95em;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #00BD93 ;
+	display: flex;
+	justify-content: space-evenly; 
+	align-items: top;	
+}
+
+.footer-icon{
+	position: relative;
+}
+
+.social-icons{
+	padding-top: 15px;
+	text-align: left;
+}
+
+.social-icons a{
+  transition: .3s;
+	padding-right: 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.6em;
+}
+
+.footer-info{
+	margin-top: 30px;
+	padding: 0;
+}
+
+
+.footer-nav-list{
+	list-style-type: none;
+	margin-top: 30px;
+	padding: 0;
+}
+
+
+.footer-nav-list a{
+	text-decoration: none;
+	color: white;
+}
+
+.footer-nav-list a:hover{
+	text-decoration: underline;
+}
+
+.social-icons a:hover{
+	transition: .3s;
+	filter: drop-shadow(0 0 0.5em grey);
+}
+
+
 hr {
   border-style: none;
   border-color: #504b44;
