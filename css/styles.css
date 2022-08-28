@@ -1,10 +1,10 @@
 a {
-  color: purple;
+  color: #4d3ca6;
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: purple;
+  color: #4d3ca6;
   background-color: transparent;
   text-decoration: none;
 }
@@ -34,12 +34,9 @@ button {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 } */
 hr {
-  border-style: none;
-  border-color: #504b44;
-  border-width: 5px;
-  border-top-style: dotted;
-  height: 0;
-  width: 5%;
+  
+  border-width: 1px;
+  
 }
 h1.scroll {
   font-family: Arial, Helvetica, sans-serif;
@@ -75,11 +72,22 @@ h3.h3-2 {
 }
 
 li {
-  text-align:center;
+  /* text-align:center; */
   font-size: 25px;
   list-style: none;
+  display: flex;
+
 }
 
+.footer {
+  font-size: 15px;
+  display: flex;
+  line-height: 30px;
+}
+
+.footer-header {
+ 
+}
 /* Scroller styling */
 .scroller {
   height: 1.2em;
@@ -131,7 +139,7 @@ ul li {
   border: 2px solid #422800;
   border-radius: 30px;
   box-shadow: #422800 4px 4px 0 0;
-  color: #422800;
+  color: #4d3ca6;
   cursor: pointer;
   display: inline-block;
   font-weight: 600;
@@ -146,7 +154,9 @@ ul li {
 }
 
 .button-74:hover {
-  background-color: #fbeee0;
+  /* background-color: #fbeee0; */
+  background-color: #000000;
+  text-decoration: none;
 }
 
 .button-74:active {
