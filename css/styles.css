@@ -17,6 +17,10 @@ a.one{
     color: #4d3ca6;}
 a.one:hover{
     color: #fff}
+.banner {
+    width: 100%;
+}
+
 
 body {
   background-color: #fefae0;
