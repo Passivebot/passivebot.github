@@ -259,9 +259,8 @@ ul li {
 
 body {
   font-family: "Quicksand", sans-serif;
-  display: grid;
-  place-items: center;
   height: 100vh;
+  place-items: center normal;
   background: #7f7fd5;
   background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
 }
@@ -269,7 +268,7 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: ;
   max-width: 1200px;
   margin-block: 2rem;
   gap: 2rem;
