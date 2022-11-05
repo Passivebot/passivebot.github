@@ -29,13 +29,7 @@ body {
   background: #7f7fd5;
   background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
 }
-/*
-body {
-  background-color: #fefae0;
-  padding: 40px 40px 40px 40px;
-  font-family: Arial, Helvetica, sans-serif;
 
-}*/
 button {
   background-color:#b98c6b;
   border-radius:12px;
@@ -228,6 +222,14 @@ ul li {
     padding: 0 25px;
   }
 
+
+tr {
+  margin: 0;
+  padding: 0;
+}
+
+
+
   /* _button-group.scss:80 */
 .dropup &::after,
 .dropright &::after {
@@ -352,5 +354,9 @@ background: linear-gradient(to bottom, #ef473a, #cb2d3e);
 
 .user__info > small {
   color: #666;
+}
+
+.style_copyright__AvLW1 {
+  font-size: 12px;
 }
 }
