@@ -296,8 +296,8 @@ img {
   overflow: hidden;
   box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: 1em;
-  background: #ECE9E6;
-background: linear-gradient(to right, #bea1e7, #bea1e7);
+  /* background: #ECE9E6; */
+  background: linear-gradient(to right,#86a8e7, #86a8e7);
 
 }
 
