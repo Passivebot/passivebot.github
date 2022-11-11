@@ -152,7 +152,7 @@
   flex-direction: column;
   gap: var(--gap);
   margin: 0;
-  max-width: 100vh;
+  max-width: 200vh;
 }
 
 .wrapper--vertical {
@@ -174,7 +174,7 @@
   width: fit-content;
   white-space: nowrap;
   transform: translateY(-50%);
-  animation: fade 400ms 4s ease-out forwards;
+  /* animation: fade 400ms 4s ease-out forwards; */
   user-select: none;
 }
 
@@ -194,12 +194,12 @@
   transform: translate(-50%, -50%) rotate(-90deg);
 }
 
-/* @keyframes fade {
+@keyframes fade {
   to {
     opacity: 0;
     visibility: hidden;
   }
-} */
+} 
 
     </style>
 </head>
