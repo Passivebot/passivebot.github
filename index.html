@@ -56,9 +56,9 @@
 
 
      .marquee {
-  display: inline-flex;
+  display: flex;
   overflow: hidden;
-  user-select: none;
+  user-select:all;
   padding: 0;
   gap: var(--gap);
   mask-image: linear-gradient(
@@ -124,6 +124,7 @@
    .marquee svg:hover {
   /* background-color: #fbeee0; */
   background-color: #000000;
+  fill: #fff;
   text-decoration: none;
   
   box-shadow: #422800 4px 4px 0 0;
@@ -137,7 +138,7 @@
   width: 100%;
   fill: var(--color-text);
   background: var(--color-bg-accent);
-  aspect-ratio: 16/9;
+  aspect-ratio: 18/9;
   padding: calc(var(--size) / 10);
   border-radius: 30px;
   box-shadow: #422800 4px 4px 0 0;
@@ -149,7 +150,7 @@
   flex-direction: column;
   gap: var(--gap);
   margin: 0;
-  width: auto;
+  width: 100;
 }
 
 
@@ -190,6 +191,7 @@
 @keyframes fade {
   to {
     visibility: hidden;
+    opacity: 0;
   }
 } 
 
@@ -234,11 +236,7 @@
 </h2>
 <br>
 <br>
-<center>
-  <a class="button-75 one" role="listitem" href="/games/">Games</a>
-  <a class="button-75 one" role="listitem" href="/websites/">Websites</a>
-  <a class="button-75 one" role="listitem" href="/applications/">Applications</a>
-</center>
+<br>
 <br>
 <br>
 <br>
@@ -480,6 +478,13 @@
 </svg>
 <br>
 <br>
+<br>
+<br>
+<center>
+  <a class="button-75 one" role="listitem" href="/games/">Games</a>
+  <a class="button-75 one" role="listitem" href="/websites/">Websites</a>
+  <a class="button-75 one" role="listitem" href="/applications/">Applications</a>
+</center>
 <br>
 <br>
 <h2 class="h2-1">
