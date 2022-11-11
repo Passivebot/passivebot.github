@@ -109,6 +109,7 @@ li.normal {
   font-size: 15px;
   display: flex;
   line-height: 30px;
+
 }
 
 .footer-header {
@@ -396,5 +397,9 @@ background: linear-gradient(to bottom, #ef473a, #cb2d3e);
   content: "";
   padding: 0;
 }
+
+
+
+
 
 }
