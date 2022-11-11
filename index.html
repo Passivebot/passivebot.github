@@ -49,8 +49,9 @@
   margin-bottom: 2px;
 }
      body {
-  display: grid;
+  display: flexbox;
    padding: 0;
+   width: 100%;
      }
 
 
@@ -124,15 +125,16 @@
   /* background-color: #fbeee0; */
   background-color: #000000;
   text-decoration: none;
+  
   box-shadow: #422800 4px 4px 0 0;
   
 }
      
 /* Element styles */
 .marquee svg {
-  display: flex;
+  display: grid;
   place-items: center;
-  width: 17em;
+  width: 100%;
   fill: var(--color-text);
   background: var(--color-bg-accent);
   aspect-ratio: 16/9;
@@ -147,7 +149,7 @@
   flex-direction: column;
   gap: var(--gap);
   margin: 0;
-  max-width:100em;
+  width: auto;
 }
 
 
